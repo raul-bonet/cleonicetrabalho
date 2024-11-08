@@ -1,0 +1,137 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(30, 31, 32);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cabecalho {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    height: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.logo {
+    animation: girar 5s infinite none;
+    transform-origin: 60%;
+ }
+
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .navegacao {
+    display: flex;
+    margin-top: 30px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.navegacao .cor a {
+    color: #ff0000;
+}
+
+.navegacao a:hover {
+    color: #ff0000;
+}
+
+.navegacao .texto {
+    padding-left: 325px;
+}
+
+.navegacao .texto a {
+    padding-left: 80px;
+}
+
+.navegacao .icones {
+    padding-left: 250px;
+}
+
+.navegacao .icones a {
+    margin-left: 50px;
+}
+
+.contato {
+    margin-top: 50px;
+}
+
+.contato .qrcode {
+    margin-left: 240px;
+}
+
+.contato .descricao {
+    font-size: 25px;
+    color: #ffffff;
+    margin: 30px;
+}
+
+.rodape {
+    background-color: rgb(185, 185, 185);
+    padding-bottom: 20px;
+}
+
+.rodape .copyright {
+    display: flex;
+    gap: 630px;
+}
+
+
+.rodape .copyright p {
+    padding-left: 20px;
+}
+
+.informacoes  {
+    padding: 20px 50px;
+    font-size: 30px;
+    padding-left: 600px;
+}
+
+.pagamento {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.pagamento p {
+    padding-top: 15px;
+}
+
+.pagamento p:hover {
+    font-size: 30px;
+}
+
+main:after {
+	content: "";
+	min-height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    z-index: -1;
+}
