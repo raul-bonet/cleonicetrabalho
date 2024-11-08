@@ -48,7 +48,7 @@ main {
 }
 
 .navegacao .texto {
-  padding-left: 550px;
+  padding-left: 325px;
 }
 
 .navegacao .texto a {
@@ -56,7 +56,7 @@ main {
 }
 
 .navegacao .icones {
-  padding-left: 450px;
+  padding-left: 250px;
 }
 
 .navegacao .icones a {
@@ -87,8 +87,8 @@ main {
 }
 
 .wrap-login100 {
-  width: 390px;
-  background: #5d5d5d;
+  width: 500px;
+  background: #682727;
   border-radius: 10px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
@@ -112,7 +112,7 @@ main {
   display: block;
   font-family: Poppins-Bold;
   font-size: 30px;
-  color: #333333;
+  color: #cc4b4b;
   line-height: 1.2;
   text-align: center;
 }
@@ -133,7 +133,7 @@ main {
 .input100 {
   font-family: Poppins-Regular;
   font-size: 15px;
-  color: #555555;
+  color: #fff6f6;
   line-height: 1.2;
 
   display: block;
@@ -168,11 +168,11 @@ main {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #6a7dfe;
-  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  background: linear-gradient(left, #21d4fd, #b721ff);
+  background: #ff0000;
+  background: -webkit-linear-gradient(left, #000000, #ff0000);
+  background: -o-linear-gradient(left, #070707, #ff0000);
+  background: -moz-linear-gradient(left, #000000, #ff0000);
+  background: linear-gradient(left, #000000, #ff0000);
 }
 
 .focus-input100::after {
