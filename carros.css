@@ -1,0 +1,194 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(30, 31, 32);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cabecalho {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    height: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.logo {
+    animation: girar 5s infinite none;
+    transform-origin: 60%;
+ }
+
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .navegacao {
+    display: flex;
+    margin-top: 30px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.navegacao .cor a {
+    color: #ff0000;
+}
+
+.navegacao a:hover {
+    color: #ff0000;
+}
+
+.navegacao .texto {
+    padding-left: 550px;
+}
+
+.navegacao .texto a {
+    padding-left: 80px;
+}
+
+.navegacao .icones {
+    padding-left: 450px;
+}
+
+.navegacao .icones a {
+    margin-left: 50px;
+}
+
+.carros {
+    display: inline-block;
+    width: 1000px;
+    height: 1500px;
+    padding: 30px;
+}
+
+.carros p {
+    font-size: 30px;
+    color: #dfdcdc;
+}
+
+.carros li {
+    display: flex;
+    margin-top: 100px;
+}
+
+.carros .imagens {
+    width: 500px;
+    height: 500px;
+}
+
+.carros .imagens img {
+    width: 100%;
+    height: 100%; 
+}
+.texto {
+    display: block;
+}
+
+.carros .nome {
+    margin: 0px 20px;
+    font-size: 40px;
+}
+
+.carros .preco { 
+    margin: 20px;
+}
+
+.carros .botoes {
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+.carros .carrinho {
+    margin-right: 20px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 230px;
+}
+
+.carros .carrinho:hover {
+    background-color: #bcb9b9;
+    font-size: 21px;
+}
+
+.carros .comprar {
+    font-size: 20px;
+    height: 50px;
+    border-radius: 30px;
+    width: 130px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.carros .comprar:hover {
+    background-color: #515050;
+    font-size: 22px;
+}
+
+.rodape {
+    background-color: rgb(185, 185, 185);
+    padding-bottom: 20px;
+    margin-top: 5300px;
+}
+
+.rodape .copyright {
+    display: flex;
+    gap: 630px;
+}
+
+
+.rodape .copyright p {
+    padding-left: 20px;
+}
+
+.informacoes  {
+    padding: 20px 50px;
+    font-size: 30px;
+    padding-left: 600px;
+}
+
+.pagamento {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.pagamento p {
+    padding-top: 15px;
+}
+
+.pagamento p:hover {
+    font-size: 30px;
+}
+
+main:after {
+	content: "";
+	min-height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    z-index: -1;
+}
